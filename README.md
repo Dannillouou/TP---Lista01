@@ -1,2 +1,2 @@
 # TP-Lista01
-Estudo de caso de música utilizando a linguagem C#
+Estudo de caso de músicas utilizando a linguagem C#
