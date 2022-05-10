@@ -7,13 +7,14 @@ namespace EstudoMusica{
         public string Genero { get; private set; }
         public string DataLancamento { get; private set; }
         public string Capa { get; private set; }
-        public LinkedList<Musica> Musicas{ get; private set; }
+        public List<Musica> Musicas{ get; private set; }
 
-        Album(string nome, string genero, string lancamento, string capa){
+        public Album(string nome, string genero, string lancamento, string capa){
             this.Nome = nome;
             this.Genero = genero;
             this.DataLancamento = lancamento;
             this.Capa = capa;
+            this.Musicas = new List<Musica>();
         }
     }
 }
