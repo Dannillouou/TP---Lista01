@@ -7,7 +7,7 @@ namespace EstudoMusica{
         public List<string> Generos { get; private set; }
         public List<Album> Albuns { get; private set; }
 
-        public Produtor(string produtora, string nome, string datadeNascimento, string datadeFalecimento, ulong cpf){
+        public Produtor(string produtora, string nome, DateTime datadeNascimento, DateTime datadeFalecimento, ulong cpf){
             this.Produtora = produtora;
             this.Generos = new List<string>();
             this.Albuns = new List<Album>();

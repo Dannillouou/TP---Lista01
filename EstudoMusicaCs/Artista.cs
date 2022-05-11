@@ -3,14 +3,14 @@ using System.Collections.Generic;
 
 namespace EstudoMusica{
     public class Artista : Pessoa{
-        public string DataContrato { get; private set; }
+        public DateTime DataContrato { get; private set; }
         public string Genero { get; private set; }
         public List<Album> Albuns { get; private set; }
 
-        public Artista(string datadoContrato, string genero, string nome, ulong cpf, string datadeNascimento, string datadeFalecimento){
+        public Artista(DateTime datadoContrato, string genero, string nome, ulong cpf, DateTime datadeNascimento, DateTime datadeFalecimento){
             this.DataContrato = datadoContrato;
             this.Genero = genero;
-            this.Nome = Nome;
+            this.Nome = nome;
             this.DataNascimento = datadeNascimento;
             this.DataFalecimento = datadeFalecimento;
             this.Cpf = cpf;
