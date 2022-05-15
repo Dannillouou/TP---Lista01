@@ -62,6 +62,7 @@ namespace EstudoMusica{
             int escolha = 22;
 
             do{
+		Console.WriteLine("Aperte qualquer tecla para continuar...");
                 Console.ReadKey();
                 Console.Clear();
                 Console.WriteLine("Digite a opção:");
