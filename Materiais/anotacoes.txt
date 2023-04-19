@@ -1,0 +1,3 @@
+Essa pasta é mais para guardar os materiais sobre csharp para estudar posteriormente.
+
+Ainda falta organizar as buscas dentro de uma classe de busca. O Aikenpil fez algo mais ou menos como deve ser.
